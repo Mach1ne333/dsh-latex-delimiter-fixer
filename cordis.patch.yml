@@ -1,0 +1,4 @@
+# LaTeX delimiter fixer bundle.
+- insert:
+    - id: latex-delimiter-fixer
+      name: 'dsh-latex-delimiter-fixer'

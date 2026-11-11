@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "LaTeX delimiter fixer",
+    "description": "Rewrites ChatGPT-style \\(...\\) and \\[...\\] math delimiters into $...$ and $$...$$ in Markdown notes, skipping code blocks, front matter, and regex examples."
+  }
+}

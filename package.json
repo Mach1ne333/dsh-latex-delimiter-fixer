@@ -1,0 +1,49 @@
+{
+  "name": "dsh-latex-delimiter-fixer",
+  "version": "0.1.0",
+  "description": "Rewrite GPT-style LaTeX math delimiters into Obsidian-friendly $...$ / $$...$$ in Markdown notes",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets",
+    "screenshots.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "obsidian",
+    "markdown",
+    "latex",
+    "mathjax",
+    "notes"
+  ],
+  "author": "Mach1ne333",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mach1ne333/dsh-latex-delimiter-fixer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mach1ne333/dsh-latex-delimiter-fixer/issues"
+  },
+  "homepage": "https://github.com/Mach1ne333/dsh-latex-delimiter-fixer#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

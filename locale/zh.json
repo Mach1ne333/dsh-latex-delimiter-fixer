@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "LaTeX 公式定界符修复",
+    "description": "把 Markdown 笔记里 GPT 风格的 \\(...\\)、\\[...\\] 公式改成 Obsidian 能显示的 $...$、$$...$$，自动跳过代码块、front matter 和正则示例。"
+  }
+}
